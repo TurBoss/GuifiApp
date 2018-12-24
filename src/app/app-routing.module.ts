@@ -19,6 +19,10 @@ const routes: Routes = [
     path: 'node-details',
     loadChildren: './node-details/node-details.module#NodeDetailsPageModule'
   },
+  {
+    path: 'device-details',
+    loadChildren: './device-details/device-details.module#DeviceDetailsPageModule'
+  },
 ];
 
 @NgModule({

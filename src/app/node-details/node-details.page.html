@@ -35,6 +35,8 @@
         <p>
           disponible para red mallada y estado	Yes	Working
         </p>
+
+        <ion-button shape="round" color="primary" fill="outline" [routerLink]="['/node-details']">Edit</ion-button>
     </ion-card-content>
 </ion-card>
 <ion-card>
@@ -48,7 +50,8 @@
         <h2>KCJasdf123rd1</h2>
         <h3>Radio</h3>
         <p>10.10.10.10</p>
-      </ion-label>
+      <ion-button shape="round" color="primary" fill="outline" [routerLink]="['/device-details']">Edit</ion-button>
+    </ion-label>
     </ion-item>
     </ion-list>
   </ion-card-content>
@@ -61,9 +64,9 @@
     <ion-list>
     <ion-item>
       <ion-label>
-        <h2>linked nodes</h2>
         <h3>KCJasdf123rd1 - KCJasdf123rd1</h3>
-        <p>10.10.10.10</p>
+        <p>10.10.10.10 - 10.10.10.1</p>
+        <ion-button shape="round" color="primary" fill="outline" [routerLink]="['/node-details']">Edit</ion-button>
       </ion-label>
     </ion-item>
     </ion-list>
