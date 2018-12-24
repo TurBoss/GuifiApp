@@ -1,5 +1,7 @@
 {
   "name": "Guifi",
-  "integrations": {},
+  "integrations": {
+    "cordova": {}
+  },
   "type": "angular"
 }
